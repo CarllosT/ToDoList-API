@@ -1,15 +1,21 @@
 {
   "name": "todolist",
   "version": "1.0.0",
-  "description": "",
+  "description": "To Do List",
   "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/index.js"
+
+  },
+  "author": "Gabriel",
+  "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.19.0",
+    "chalk": "^4.1.0",
     "express": "^4.17.1"
   },
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "CarllosT",
-  "license": "ISC"
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
 }
