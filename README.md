@@ -78,4 +78,4 @@ Depois de instalar todas as dependências, rode o comando no terminal para a apl
 - `npm run start`
 
 ### Autor: 
-**Eli Gabriel Narcizo**
+Carlos Trajano.
